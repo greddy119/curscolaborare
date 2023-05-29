@@ -8,3 +8,8 @@ window.addEventListener("load", function() {
     });
 });
 
+const p = document.querySelector("p")
+p.addEventListener("click", ()=>{
+    p.classList.remove("paragraf1")
+    p.classList.add("paragraf2")
+})
